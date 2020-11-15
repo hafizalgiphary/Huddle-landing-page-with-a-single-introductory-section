@@ -1,0 +1,158 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.spasi {
+  padding-top: 7rem;
+}
+
+.tulisan {
+  padding-top: 18rem;
+}
+
+span {
+  font-size: 12pt;
+}
+
+.btn {
+  box-shadow: 3px 6px 10px #00000075;
+  border-color: none;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  width: 10rem;
+  color: hsl(257, 40%, 49%);
+}
+
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.btn:focus {
+  box-shadow: none;
+  box-shadow: 3px 6px 10px #00000075;
+}
+
+.enter {
+  padding-top: 12rem;
+}
+
+.fab {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 2rem;
+  width: 1.6em;
+  height: 1.6em;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.fab:hover {
+  color: hsl(300, 69%, 71%);
+  border: 2px hsl(300, 69%, 71%) solid;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .spasi {
+    padding-top: 3rem;
+  }
+
+  .logo-responsive {
+    width: 13rem;
+    padding-bottom: 2rem;
+  }
+
+  .mockup-responsive {
+    margin-left: 1.5rem;
+    margin-right: auto;
+    width: 20rem;
+  }
+
+  .tulisan {
+    padding-top: 5rem;
+  }
+
+  h2 {
+    font-size: 23pt;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 3rem;
+  }
+
+  p {
+    font-size: 14pt;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .btn {
+    margin-left: 4.5rem;
+    box-shadow: 3px 6px 10px #00000075;
+    border-color: none;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    height: 3.5rem;
+    width: 14rem;
+    color: hsl(257, 40%, 49%);
+  }
+
+  .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+  }
+
+  .btn:focus {
+    box-shadow: none;
+    box-shadow: 3px 6px 10px #00000075;
+  }
+  .enter {
+    padding-top: 3rem;
+  }
+
+  .fab {
+    margin-right: 0.5rem;
+    padding-top: 0.7rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px white solid;
+  }
+
+  .fab:hover {
+    color: hsl(300, 69%, 71%);
+    border: 2px hsl(300, 69%, 71%) solid;
+  }
+  .attribution {
+    font-size: 12pt;
+  }
+}
